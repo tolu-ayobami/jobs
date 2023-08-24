@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.underline{
+    width: 100px;
+    height: 4px;
+    background-color: green;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bet{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ok{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.jru{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.ok button:hover{
+    color: aquamarine;
+    border-left: 2px solid aquamarine;
+    padding: 7px;
+}
+
+.red{
+    width: 200px;
+    height: 30px;
+    background-color: lightgreen;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin: auto;
+}
